@@ -27,7 +27,7 @@ a {
 }
 
 .category-btn:hover {
-  background-color: #FC1503 !important;
+  background-color: rgba(10,158,252,255)!important;
   color: white !important;
 }
 

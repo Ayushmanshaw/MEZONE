@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from "react";
 import { Box, Stack, Typography } from "@mui/material";
 
@@ -21,13 +22,13 @@ const Feed = () => {
         <Sidebar selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory} />
         
         <Typography className="copyright" variant="body2" sx={{ mt: 1.5, color: "#fff", }}>
-          Copyright © 2022 JSM Media
+          Copyright © 2023 Mezone
         </Typography>
       </Box>
 
       <Box p={2} sx={{ overflowY: "auto", height: "90vh", flex: 2 }}>
         <Typography variant="h4" fontWeight="bold" mb={2} sx={{ color: "white" }}>
-          {selectedCategory} <span style={{ color: "#FC1503" }}>videos</span>
+          {selectedCategory} <span style={{ color: "rgba(10,158,252,255)" }}>videos</span>
         </Typography>
 
         <Videos videos={videos} />
